@@ -1,0 +1,178 @@
+html {
+    font-family: "roboto";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3,
+a {
+    font-size: 24px;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header,
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 24px;
+    justify-content: space-around;
+    flex: 0;
+}
+
+
+
+.website-awesome{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    align-content: center;
+    padding: 40px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    flex: 1;
+}
+
+a {
+    color: #F9FAF8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.links-right {
+    gap: 50px;
+}
+
+.awesome-content {
+    display: flex;
+}
+
+.some-random {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 24px;
+    padding: 24px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 32px;
+}
+
+.block {
+    max-width: 200px;
+    text-wrap: wrap;
+    align-content: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote-part{
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-block {
+    padding: 66px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-action {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 32px;
+}
+
+
+.call-box {
+    background-color: #3882F6;
+    width: 600px;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-text {
+    color: white;
+    font-size: 24px;
+}
+
+.call-subtext {
+    color: white;
+    font-size: 16px;
+}
+
+.call-button {
+    border: solid white;
+    color: white;
+    margin: 12px;
+    padding: 6px 12px;
+}
+
+<div class="call-action">
+<div class="call-box">
+   <div class="call-text">Call to action! It's time!</div>
+   <div class="call-subtext">Sign up for our product by clicking that button right over there</div>
+   <div class="call-button">Sign up</div>
+</div>
