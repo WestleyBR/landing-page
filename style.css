@@ -1,5 +1,5 @@
 html {
-    font-family: "roboto";
+    font-family: Roboto;
 }
 
 body {
@@ -19,11 +19,14 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 400px;
 }
 
 .hero-subtext{
     font-size: 18px;
-    color: #F9FAF8;
+    color: #f9faf8be;
+    width: 450px;
+    margin-bottom: 16px;
 }
 
 .header,
@@ -47,7 +50,44 @@ a {
     width: 100%;
     margin: 0;
     align-content: center;
-    padding: 40px;
+    padding: 100px 295px;
+    justify-content: space-around;
+}
+
+.button-class {
+    background-color: #3882F6;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    padding: 6px 12px;
+}
+
+.awesome-content {
+    display: flex;
+    gap: 50px;
+}
+
+.block-left {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: auto;
+}
+
+.img-princ {
+    height: 200px;
+    width: 600px;   
+    margin: 0 ;
 }
 
 .content{
@@ -55,7 +95,8 @@ a {
     justify-content: center;
     flex-wrap: wrap ;
     flex-direction: row;
-    flex: 1;
+    flex: 5;
+    flex-shrink: 0;
 }
 
 a {
@@ -68,9 +109,6 @@ a {
     gap: 50px;
 }
 
-.awesome-content {
-    display: flex;
-}
 
 .some-random {
     width: 100%;
@@ -86,15 +124,28 @@ a {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 100px;
   margin-bottom: 32px;
+  gap: 50px;
 }
 
 .block {
-    max-width: 200px;
+    max-width: 250px;
     text-wrap: wrap;
     align-content: center;
 }
+
+.img-info {
+    width: 250px;
+    border: 4px #3882F6 solid;
+    border-radius: 4px;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+}
+
 
 .information-header {
     font-size: 36px;
@@ -125,12 +176,12 @@ a {
     width: 750px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
 }
 
 .thor {
     font-size: 24px;
     font-weight: 700;
+    margin-left: auto;
 }
 
 .call-action {
@@ -146,15 +197,19 @@ a {
 .call-box {
     background-color: #3882F6;
     width: 600px;
-    padding: 20px 100px;
+    padding: 40px 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 12px;
+    margin: 48px;
 }
 
 .call-text {
     color: white;
+    font-weight: 700;
     font-size: 24px;
 }
 
@@ -167,12 +222,18 @@ a {
     border: solid white;
     color: white;
     margin: 12px;
-    padding: 6px 12px;
+    padding: 4px 34px;
+    border-radius: 6px;
+    font-weight: 700;
 }
 
-<div class="call-action">
-<div class="call-box">
-   <div class="call-text">Call to action! It's time!</div>
-   <div class="call-subtext">Sign up for our product by clicking that button right over there</div>
-   <div class="call-button">Sign up</div>
-</div>
+.block-left-box {
+    display: flex;
+    width: 440px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: auto;
+}
+
